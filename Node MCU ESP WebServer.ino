@@ -7,7 +7,7 @@
 #include <MPU6050.h>
 /* Set these to your desired credentials. */
 const char *ssid = "ADAARS";
-const char *password = "qwertyas";
+const char *password = "12345678";
 
 ESP8266WebServer server(80);
 MPU6050 mpu;
@@ -19,7 +19,7 @@ float X_Acc = 0;
 float Y_Acc = 0;
 float Z_Acc = 0;
 float T =0;
-bool Impact = false;
+bool Impact = false
 
 #define impactPin D5
 
