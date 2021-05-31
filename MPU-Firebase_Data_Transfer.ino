@@ -5,10 +5,10 @@
 #include <FirebaseESP8266.h>
 #include <MPU6050.h> 
 /* Set these to your desired credentials. */
-#define FIREBASE_HOST  "adaars-1eb92-default-rtdb.firebaseio.com" //Without http:// or https:// schemes
-#define FIREBASE_AUTH "C2S9CMsgQJwCGCXO5WilinHN9toCbXxu0G9VRo7b"
-#define WIFI_SSID "DEM"
-#define WIFI_PASSWORD "qwertyas"
+#define FIREBASE_HOST "YOUR_FIREBASE_PROJECT.firebaseio.com" //Without http:// or https:// schemes
+#define FIREBASE_AUTH "YOUR_FIREBASE_DATABASE_SECRET"
+#define WIFI_SSID "YOUR_WIFI_AP"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 MPU6050 mpu;
 float timeStep = 0.01;
 float Pitch=0;    // Pitch
